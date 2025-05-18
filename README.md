@@ -8,6 +8,7 @@ This simple bookmarklet automatically clicks all "See more" buttons on a Faceboo
 2. Create a **new bookmark**.
 3. Name it something like `Expand FB Posts`.
 4. Paste the code below into the **URL/location** field:
+5. Optionally open up the fb-see-more-helper.html and drag the link to your bookmark bar.
 
 ```javascript
 javascript:(function(){document.querySelectorAll('div[role="button"]').forEach(el => {if(el.innerText.includes("See more")) el.click();});})();
