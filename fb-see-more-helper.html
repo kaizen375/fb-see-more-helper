@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Expander Bookmarklet</title>
+</head>
+<body>
+  <h2>Facebook "See More" Expander</h2>
+  <p>Drag this link to your bookmarks bar:</p>
+  <a href="javascript:(function(){document.querySelectorAll('div[role='button']).forEach(el => {if(el.innerText.includes('See more')) el.click();});})();">
+    📖 Expand Facebook Posts
+  </a>
+</body>
+</html>
